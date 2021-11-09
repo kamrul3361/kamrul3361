@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header section */
+.fixedwith{
+    width: 1270px;
+    margin: auto;
+}
+.header{
+    background: #019bf3;
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 180px;
+    height: auto;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-right ul li:first-child a{
+    border-left: 1px solid #ddd;
+}
+.header-right ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 15px;
+    border-right: 1px solid #ddd;
+    line-height: 63px;
+    text-transform: capitalize;
+}
+.header-right ul li a:hover{
+    background: #81c5ec;
+}
+
+/* Banner section */
+.banner{
+    background: url(./img/banner\ 2.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 180px 0;
+    background-attachment: fixed;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h2 {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.banner-text h1 {
+    max-width: 440px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 34px;
+    text-transform: capitalize;
+    color: #fff;
+    background: #019bf3;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+/* About section */
+.about{
+    margin: 20px 0;
+    background: #fff;
+}
+.about-text{
+    text-align: center;
+}
+.about-text h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.about-text p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
+
+/* Service */
+.service{
+    margin-top: 60px;
+}
+.service-text{
+    width: 31.3%;
+    float: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 25px 10px;
+}
+.service-text span{
+    color: #fff;
+    background:  #007acc;
+    font-size: 35px;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+    margin-bottom: 15px;
+}
+
+.service-text h3{
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+/* Product */
+.product{
+    padding: 40px 0;
+}
+.product-left{
+    width: 70%;
+    float: left;
+}
+.product-item{
+    margin-bottom: 10px;
+}
+.product-item img{
+    width: 160px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    
+
+}
+.product-right{
+    width: 25%;
+    float: right;
+}
+.product-right h2{
+    font-size: 40px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.product-right ul{
+    list-style: none;
+}
+.product-right ul li{
+    border:1px solid #ddd;
+    background: #fafafa;
+    padding: 18px;
+    text-align: center;
+    /* box-shadow: 4px 6px 30px .6px; */
+    margin-bottom: 6px;
+}
+.fotter{
+    margin: 20px;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.fotter-left{
+    width: 50%;
+    float: left;
+}
+.fotter-left p{
+    font-size: 25px;
+
+}
+.fotter-right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.social-menu{
+
+}
+.social-menu li{
+    display: inline-block;
+
+}
+.social-menu li a{
+    color: #fff;
+    padding: 0 25px;
+    font-size: 30px;
+}
